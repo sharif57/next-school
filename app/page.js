@@ -1,8 +1,11 @@
+import Banner from "./components/Banner";
+import Benefits from "./components/Benefits";
 
 export default function Home() {
   return (
     <div className="">
-      <h1>hello world</h1>
+      <Banner></Banner>
+      <Benefits></Benefits>
     </div>
   );
 }

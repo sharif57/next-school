@@ -18,7 +18,7 @@ const Navbar = () => {
                         <Link href={'/about'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About Us</Link>
                     </li>
                     <li className="flex">
-                        <Link to={'/academics'} rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
+                        <Link href={'/academics'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
                     </li>
                     <li className="flex">
                         <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
