@@ -1,5 +1,5 @@
 const Leading = () => {
-    return <div className="fixed">
+    return <div className="">
         <div className="relative bg-[url('/banner2.jpg')] bg-cover bg-center h-screen mt-10 text-black">
             <div>
                 <h1>Leading school in New-York city in the past 25 years</h1>

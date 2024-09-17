@@ -1,3 +1,4 @@
+import Apply from "./components/Apply";
 import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
 import Discover from "./components/Discover";
@@ -13,6 +14,7 @@ export default function Home() {
       <Benefits></Benefits>
       {/* <Test></Test> */}
       <Discover></Discover>
+      <Apply></Apply>
       <Frequently></Frequently>
       <Navigate></Navigate>
       <Leading></Leading>
