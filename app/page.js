@@ -1,5 +1,6 @@
 import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
+import Discover from "./components/Discover";
 import Frequently from "./components/Frequently";
 import Leading from "./components/Leading";
 import Navigate from "./components/Navigate";
@@ -11,6 +12,7 @@ export default function Home() {
       <Banner></Banner>
       <Benefits></Benefits>
       {/* <Test></Test> */}
+      <Discover></Discover>
       <Frequently></Frequently>
       <Navigate></Navigate>
       <Leading></Leading>
