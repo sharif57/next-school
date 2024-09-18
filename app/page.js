@@ -14,9 +14,9 @@ export default function Home() {
       <Banner></Banner>
       <Stories></Stories>
       <Benefits></Benefits>
-      {/* <Test></Test> */}
       <Discover></Discover>
       <Apply></Apply>
+      <Test></Test>
       <Frequently></Frequently>
       <Navigate></Navigate>
       <Leading></Leading>

@@ -1,70 +1,101 @@
-// import 'swiper/css';
-// import 'swiper/css/free-mode';
-// import 'swiper/css/pagination';
-// import 'swiper/css/navigation';
+import { Card } from "@mui/joy";
+
+import AspectRatio from '@mui/joy/AspectRatio';
+import Box from '@mui/joy/Box';
+import Typography from '@mui/joy/Typography';
+import { Fullscreen } from "lucide-react";
+import Image from "next/image";
+import { FaStar } from "react-icons/fa";
+
+const Test = () => {
 
 
-// // Import Swiper and SwiperSlide from swiper/react
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import { Pagination, Navigation } from 'swiper/modules';
+
+    const data = [
+        {
+            src: 'https://i.ibb.co/z6FB8pB/20240502162307521-jpeg.jpg',
+            title: 'Sharif Mahamud',
+            description: 'Little Learners Academy has been a second home for my child. The caring staff and engaging programs have made her excited to go to school every day!',
+        },
+        {
+            src: 'https://i.ibb.co/3BS6hYj/indoor-picture-cheerful-handsome-young-man-having-folded-hands-looking-directly-smiling-sincerely-we.jpg',
+            title: 'Jowel Rana',
+            description: 'My sons social and academic growth has been remarkable since joining Little Learners Academy. I am grateful for the supportive and dedicated teachers',
+        },
+        {
+            src: 'https://i.ibb.co/x2SPyRG/young-bearded-man-with-striped-shirt-1.jpg',
+            title: 'Lemon',
+            description: 'I am beyond impressed with the progress my son has made since joining Little Learners Academy. The teachers are patient, caring, and truly dedicated to each child',
+        },
+        {
+            src: 'https://i.ibb.co/tmsnZVT/fashion-beautiful-girl-with-bright-make-up-flowers.jpg',
+            title: 'Arifull',
+            description: 'Little Learners Academy offers a perfect blend of academic rigor and a caring atmosphere. My child has not only excelled in studies but also developed social skills and creativity.',
+        },
+    ];
+
+    return <div className="mt-[130px] px-8 text-black">
+        <div className="w-1/2 mx-auto text-center space-y-4 ">
+            <p className="btn btn-outline text-black font-semibold">
+                Their Happy Words 🤗
+            </p>
+            <h1 className="text-5xl font-bold">Our Testimonials</h1>
+            <p>
+                Our testimonials are heartfelt reflections of the nurturing
+                environment we provide, where children flourish both
+                academically and emotionally.
+            </p>
+        </div>
+        <Box
+            sx={{
+                display: 'flex',
+                gap: 1,
+                py: 1,
+                overflow: 'auto',
+                width: '100%',
+                scrollSnapType: 'x mandatory',
+                '& > *': {
+                    scrollSnapAlign: 'center',
+                },
+                // Hide scrollbar for Webkit browsers (Chrome, Safari)
+                '::-webkit-scrollbar': { display: 'none' },
+                // Hide scrollbar for Firefox
+                scrollbarWidth: 'none',
+                // Hide scrollbar for Edge and IE
+                '-ms-overflow-style': 'none',
+            }}
+        >
+            {data.map((item) => (
+                <Card orientation="vertical" key={item.title} variant="outlined" className="w-[700px] mt-14 border-r-8 border-b-8 border-black">
+                    <Box sx={{ whiteSpace: 'wrap', mx: 1 }} className="text-4xl text-center">
+                        <Image
+                            width={58} // Fixed width
+                            height={58} // Fixed height
+                            src={item.src}
+                            alt="Tania Andrew"
+                            className="inline-block rounded-full object-cover size-20 object-center"
+                            quality={100} // Ensures the image has maximum quality
+                        />
+
+                        <Typography level="title-md">
+                            <h5 className="text-xl font-semibold text-slate-800 mb-6 mt-4">{item.title}</h5>
+                        </Typography>
+                        <div className="flex justify-center text-yellow-400">
+                            <FaStar />
+                            <FaStar />
+                            <FaStar />
+                        </div>
+                        <div className="mt-6">
+                            <p className="text-base w-96 text-slate-600 font-medium leading-normal">
+                                {item.description}
+                            </p>
+                        </div>
+                    </Box>
+                </Card>
+            ))}
+        </Box>
 
 
-// // Import required modules
-// // import { FreeMode, Pagination } from 'swiper/modules';
-// const Test = () => {
-//   return <div>
-//      <div className="mt-[130px] px-8">
-//             <div className="w-1/2 mx-auto text-center space-y-4 ">
-//                 <p className="btn btn-outline text-black font-semibold">
-//                     Their Happy Words 🤗
-//                 </p>
-//                 <h1 className="text-5xl font-bold">Our Testimonials</h1>
-//                 <p>
-//                     Our testimonials are heartfelt reflections of the nurturing
-//                     environment we provide, where children flourish both
-//                     academically and emotionally.
-//                 </p>
-//             </div>
-//             <div className='mt-12'>
-//                 <Swiper
-//                     slidesPerView={3}
-//                     spaceBetween={30}
-//                     loop={true}
-//                     pagination={{
-//                         clickable: true,
-//                     }}
-//                     navigation={true}
-//                     modules={[Pagination, Navigation]}
-//                     className="mySwiper "
-//                 >
-//                     <SwiperSlide>
-//                         <div className="flex w-full p-4  flex-col rounded-lg bg-white shadow-sm border-2  border-slate-500 my-6 hover:shadow-2xl hover:border-b-8 hover:border-r-8 hover:border-black">
-//                             <div className="flex flex-col items-center gap-4 text-slate-800">
-//                                 {/* <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=1480&amp;q=80" alt="Tania Andrew" className="relative inline-block h-[58px] w-[58px] !rounded-full  object-cover object-center" /> */}
-//                                 <div className="flex w-full flex-col">
-//                                     <div className="flex flex-col items-center justify-between">
-//                                         <h5 className="text-xl font-semibold text-slate-800 mb-6">
-//                                             Tania Andrew
-//                                         </h5>
-                                       
-//                                     </div>
-
-//                                 </div>
-//                             </div>
-//                             <div className="mt-6">
-//                                 <p className="text-base text-slate-600 font-light leading-normal">
-//                                     &quot;I found solution to all my design needs from Creative Tim. I use
-//                                     them as a freelancer in my hobby projects for fun! And its really
-//                                     affordable, very humble guys !!!&quot;
-//                                 </p>
-//                             </div>
-//                         </div>
-//                     </SwiperSlide>
-                    
-                    
-//                 </Swiper>
-//             </div>
-//         </div>
-//   </div>;
-// };
-// export default Test;
+    </div>;
+};
+export default Test;
