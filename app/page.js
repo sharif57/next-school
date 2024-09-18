@@ -3,6 +3,7 @@ import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
 import Discover from "./components/Discover";
 import Frequently from "./components/Frequently";
+import Gellary from "./components/Gellary";
 import Leading from "./components/Leading";
 import Navigate from "./components/Navigate";
 import Stories from "./components/Stories";
@@ -19,7 +20,8 @@ export default function Home() {
       <Test></Test>
       <Frequently></Frequently>
       <Navigate></Navigate>
-      <Leading></Leading>
+      {/* <Leading></Leading> */}
+      <Gellary></Gellary>
     </div>
   );
 }

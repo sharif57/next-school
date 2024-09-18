@@ -1,9 +1,7 @@
 import { Card } from "@mui/joy";
 
-import AspectRatio from '@mui/joy/AspectRatio';
 import Box from '@mui/joy/Box';
 import Typography from '@mui/joy/Typography';
-import { Fullscreen } from "lucide-react";
 import Image from "next/image";
 import { FaStar } from "react-icons/fa";
 

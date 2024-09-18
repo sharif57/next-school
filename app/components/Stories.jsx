@@ -22,23 +22,23 @@ const Stories = () => {
                     <div className="relative flex justify-between gap-[100px] items-center">
                             <div className="text-center text-white flex flex-col items-center space-y-3">
                                 <FaGraduationCap className="size-20" />
-                                <h1 className="text-6xl font-semibold font-mono">1000</h1>
-                                <p className="text-4xl font-semibold">Success Stories</p>
+                                <h1 className="text-4xl font-semibold font-mono">1000</h1>
+                                <p className="text-3xl font-semibold">Success Stories</p>
                             </div>
                             <div className="text-center text-white flex flex-col items-center space-y-3">
                             <GiTeacher className="size-20" />
-                            <h1 className="text-6xl font-semibold font-mono">200</h1>
-                                <p className="text-4xl font-semibold">Trusted Tutors</p>
+                            <h1 className="text-4xl font-semibold font-mono">200</h1>
+                                <p className="text-3xl font-semibold">Trusted Tutors</p>
                             </div>
                             <div className="text-center text-white flex flex-col items-center space-y-3">
                             <MdEmojiEvents className="size-20" />
-                            <h1 className="text-6xl font-semibold font-mono">210</h1>
-                                <p className="text-4xl font-semibold">Scheduled Events</p>
+                            <h1 className="text-4xl font-semibold font-mono">210</h1>
+                                <p className="text-3xl font-semibold">Scheduled Events</p>
                             </div>
                             <div className="text-center text-white flex flex-col items-center space-y-3">
                             <FaBookAtlas className="size-20" />
-                            <h1 className="text-6xl font-semibold font-mono">139</h1>
-                                <p className="text-4xl font-semibold">Available Courses</p>
+                            <h1 className="text-4xl font-semibold font-mono">139</h1>
+                                <p className="text-3xl font-semibold">Available Courses</p>
                             </div>
                     </div>
                 </div>
