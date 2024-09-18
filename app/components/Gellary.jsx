@@ -1,11 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 
-import { Card } from "@mui/joy";
 
 import Box from '@mui/joy/Box';
 import Typography from '@mui/joy/Typography';
-import Image from "next/image";
-import { FaStar } from "react-icons/fa";
 
 
 const Gellary = () => {
@@ -93,7 +90,7 @@ const Gellary = () => {
                     </Box>
                 </div>
 
-                <div className="bg-[#ffffff] py-28 border-4  border-black rounded-lg ">
+                <div className="bg-[#ffffff] py-28 border-2 border-r-8 border-b-8    border-black rounded-lg ">
 
                     <div className="w-5/6 mx-auto">
                         <h1 className="text-4xl font-semibold">Classrooms</h1>

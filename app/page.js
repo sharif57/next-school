@@ -5,6 +5,7 @@ import Discover from "./components/Discover";
 import Frequently from "./components/Frequently";
 import Gellary from "./components/Gellary";
 import Leading from "./components/Leading";
+import Library from "./components/Library";
 import Navigate from "./components/Navigate";
 import Stories from "./components/Stories";
 import Test from "./components/Test";
@@ -22,6 +23,7 @@ export default function Home() {
       <Navigate></Navigate>
       {/* <Leading></Leading> */}
       <Gellary></Gellary>
+      <Library></Library>
     </div>
   );
 }
