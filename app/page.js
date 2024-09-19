@@ -10,6 +10,8 @@ import Navigate from "./components/Navigate";
 import Science from "./components/Science";
 import Stories from "./components/Stories";
 import Test from "./components/Test";
+import Computer from "./components/Computer";
+import Garden from "./components/Garden";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <Gellary></Gellary>
       <Library></Library>
       <Science></Science>
+      <Computer></Computer>
+      <Garden></Garden>
     </div>
   );
 }

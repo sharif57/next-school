@@ -20,7 +20,7 @@ const Library = () => {
             src: '/Image (8).png',
         },
     ];
-    return <div>
+    return <div className='px-8'>
         <div>
             <div className="relative -mb-28 w-5/6 mx-auto">
                 <Box

@@ -1,25 +1,26 @@
-
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import Box from '@mui/joy/Box';
 import Typography from '@mui/joy/Typography';
-const Computer = () => {
+
+const Garden = () => {
     const data = [
         {
-            src: '/Image (14).png',
+            src: '/Image (18).png',
         },
         {
-            src: '/Image (15).png',
+            src: '/Image (19).png',
 
         },
         {
-            src: '/Image (16).png',
+            src: '/Image (20).png',
 
         },
         {
-            src: '/Image (17).png',
+            src: '/Image (21).png',
         },
     ];
+
     return <div className='px-8'>
         <div>
             <div className="relative -mb-28 w-5/6 mx-auto">
@@ -72,11 +73,11 @@ const Computer = () => {
             <div className="bg-[#ffffff] py-28 border-2 border-r-8 border-b-8  border-black rounded-lg ">
 
                 <div className="w-5/6 mx-auto text-black">
-                    <h1 className="text-4xl font-semibold">Computer Lab</h1>
-                    <p className="mt-4">Equipped with age-appropriate technology, the computer lab enhances students' digital literacy and computational skills</p>
+                    <h1 className="text-4xl font-semibold">Garden and Nature Area</h1>
+                    <p className="mt-4">Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.</p>
                 </div>
             </div>
         </div>
-    </div>;
+    </div>;;
 };
-export default Computer;
+export default Garden;
