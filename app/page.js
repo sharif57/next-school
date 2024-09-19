@@ -7,6 +7,7 @@ import Gellary from "./components/Gellary";
 import Leading from "./components/Leading";
 import Library from "./components/Library";
 import Navigate from "./components/Navigate";
+import Science from "./components/Science";
 import Stories from "./components/Stories";
 import Test from "./components/Test";
 
@@ -24,6 +25,7 @@ export default function Home() {
       {/* <Leading></Leading> */}
       <Gellary></Gellary>
       <Library></Library>
+      <Science></Science>
     </div>
   );
 }
