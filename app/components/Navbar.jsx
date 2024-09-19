@@ -19,8 +19,9 @@ const Navbar = () => {
                         <Link href={'/academics'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
                     </li>
                     <li className="flex">
-                        <a rel="noopener noreferrer" href="#" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Link</a>
+                        <Link href={'/Admissions'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
                     </li>
+                    
                 </ul>
                 <div className="items-center flex-shrink-0 hidden lg:flex">
                     <button className="self-center px-8 py-3 rounded">Sign in</button>
