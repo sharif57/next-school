@@ -45,6 +45,39 @@ const Tables = () => {
       </div>
     </div>
 
+    {/* second tables */}
+    <div className="container mx-auto p-8 mt-8">
+      <div className="border-2 border-r-8 border-l-8 border-black rounded-lg p-8">
+        <div className="bg-gray-800 rounded-lg w-full text-white p-4 mb-3">
+          <h1 className="text-xl font-semibold">Additional Services</h1>
+        </div>
+        <table className="min-w-full table-auto border-collapse border border-gray-300 text-center">
+
+          <thead className="">
+
+          </thead>
+          <tbody className="rounded-lg">
+            <tr className="bg-gray-100">
+              <td className="border border-gray-300 px-4 py-2">Before and After-School Care</td>
+              <td className="border border-gray-300 px-4 py-2">$120 / per month</td>
+
+            </tr>
+            <tr>
+              <td className="border border-gray-300 px-4 py-2"> Language Immersion Program</td>
+              <td className="border border-gray-300 px-4 py-2">$60 / per semester</td>
+
+            </tr>
+            <tr className="bg-gray-100">
+              <td className="border border-gray-300 px-4 py-2">Transportation (optional)</td>
+              <td className="border border-gray-300 px-4 py-2">$80 / per month</td>
+
+            </tr>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+
   </div>;
 };
 export default Tables;
