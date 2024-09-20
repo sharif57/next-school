@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 const AdmissionCard = () => {
 
     const cards = [
@@ -32,9 +33,9 @@ const AdmissionCard = () => {
             number: '06'
         },
     ]
-    return <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
+    return <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
         {
-            cards.map(card => <div className=" mt-16" key={card.number}>
+            cards.map(card => <div className="" key={card.number}>
                 <div className="p-4 border-2 border-r-8 border-b-8 border-black rounded-lg w-1/5">
                     <h1 className="text-4xl font-bold">{card.number}</h1>
                 </div>

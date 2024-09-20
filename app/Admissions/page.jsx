@@ -1,5 +1,5 @@
 import AdmissionCard from "../components/AdmissionCard";
-import Table from "../components/Table";
+import Tables from "../components/Tables";
 
 /* eslint-disable react/no-unescaped-entities */
 const Page = () => {
@@ -29,7 +29,7 @@ const Page = () => {
         </div>
         <div className="px-12">
             <AdmissionCard></AdmissionCard>
-            <Table></Table>
+            <Tables></Tables>
         </div>
     </div>;
 };
