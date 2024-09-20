@@ -21,6 +21,9 @@ const Navbar = () => {
                     <li className="flex">
                         <Link href={'/Admissions'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Admissions</Link>
                     </li>
+                    <li className="flex">
+                        <Link href={'/studentLife'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Student Life</Link>
+                    </li>
                     
                 </ul>
                 <div className="items-center flex-shrink-0 hidden lg:flex">
