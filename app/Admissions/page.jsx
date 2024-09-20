@@ -1,3 +1,6 @@
+import AdmissionCard from "../components/AdmissionCard";
+import Table from "../components/Table";
+
 /* eslint-disable react/no-unescaped-entities */
 const Page = () => {
     return <div className="text-black">
@@ -23,6 +26,10 @@ const Page = () => {
                 <h1 className="text-5xl  font-bold">Admission Process</h1>
                 <p>Embark on a remarkable educational journey with us! Our Admission and Enrollment process is the gateway to providing your child with an exceptional learning experience at our kindergarten school</p>
             </div>
+        </div>
+        <div className="px-12">
+            <AdmissionCard></AdmissionCard>
+            <Table></Table>
         </div>
     </div>;
 };
