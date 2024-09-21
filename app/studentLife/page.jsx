@@ -4,7 +4,7 @@ import Extracurricular from "../components/Extracurricular";
 import StudentBanner from "../components/StudentBanner";
 
 const Page = () => {
-  return <div>
+  return <div className="mb-10">
     <StudentBanner></StudentBanner>
     <Extracurricular></Extracurricular>
     <Event></Event>

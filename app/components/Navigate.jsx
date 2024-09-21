@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
+import Link from "next/link";
 import { BiArrowToRight } from "react-icons/bi";
 
 const Navigate = () => {
@@ -22,12 +23,12 @@ const Navigate = () => {
                         Discover our Mission, Values, and our unwavering commitment to providing the best learning experience for your child. Learn about our passionate educators and our engaging approach to early education.
                     </p>
 
-                    <button
+                    <Link href={'/about'} 
                         className="rounded-md border-2 flex text-xl items-center justify-center w-full bg-[#ffdecc] py-2 px-4 mt-6 border-black  text-center gap-4 text-black transition-all shadow-md   hover:shadow-2xl hover:border-b-8 hover:border-r-8 hover:border-black "
                         type="button"
                     >
                         Learn More <BiArrowToRight className="size-8"></BiArrowToRight>
-                    </button>
+                    </Link>
                 </div>
             </div>
             <div className="flex text-center flex-col  bg-white shadow-sm border-2 border-black rounded-lg  hover:shadow-2xl border-b-8 border-r-8  p-6">
@@ -39,12 +40,12 @@ const Navigate = () => {
                         Delve into our comprehensive academic programs designed to stimulate young minds, foster creativity, and encourage a love for learning. Explore our well-rounded curriculum that nurtures both intellectual and social development.
                     </p>
 
-                    <button
+                    <Link href={'/academics'}
                         className="rounded-md border-2 flex text-xl items-center justify-center w-full bg-[#ffdecc] py-2 px-4 mt-6 border-black  text-center gap-4 text-black transition-all shadow-md   hover:shadow-2xl hover:border-b-8 hover:border-r-8 hover:border-black "
                         type="button"
                     >
                         Learn More <BiArrowToRight className="size-8"></BiArrowToRight>
-                    </button>
+                    </Link>
                 </div>
             </div>
 
@@ -57,12 +58,12 @@ const Navigate = () => {
                         Peek into the vibrant and enriching world of Student Life at Little Learners Academy. Discover the array of extracurricular activities, arts and crafts, sports, and social events that make our school experience truly memorable.
                     </p>
 
-                    <button
+                    <Link href={'/studentLife'}
                         className="rounded-md border-2 flex text-xl items-center justify-center w-full bg-[#ffdecc] py-2 px-4 mt-6 border-black  text-center gap-4 text-black transition-all shadow-md   hover:shadow-2xl hover:border-b-8 hover:border-r-8 hover:border-black "
                         type="button"
                     >
                         Learn More <BiArrowToRight className="size-8"></BiArrowToRight>
-                    </button>
+                    </Link>
                 </div>
             </div>
 
@@ -75,12 +76,11 @@ const Navigate = () => {
                         Learn about our Enrollment Process and how to secure your child's place at Little Learners Academy. Find information about our admission requirements, application deadlines, and available spaces. 
                     </p>
 
-                    <button
+                    <Link  href={'/Admissions'} 
                         className="rounded-md border-2 flex text-xl items-center justify-center w-full bg-[#ffdecc] py-2 px-4 mt-6 border-black  text-center gap-4 text-black transition-all shadow-md   hover:shadow-2xl hover:border-b-8 hover:border-r-8 hover:border-black "
-                        type="button"
-                    >
+                        type="button">
                         Learn More <BiArrowToRight className="size-8"></BiArrowToRight>
-                    </button>
+                    </Link>
                 </div>
             </div>
 
