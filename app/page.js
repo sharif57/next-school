@@ -3,7 +3,7 @@ import Banner from "./components/Banner";
 import Benefits from "./components/Benefits";
 import Discover from "./components/Discover";
 import Frequently from "./components/Frequently";
-import Leading from "./components/Leading";
+// import Leading from "./components/Leading";
 
 import Navigate from "./components/Navigate";
 import Stories from "./components/Stories";
@@ -17,10 +17,10 @@ export default function Home() {
       <Benefits></Benefits>
       <Discover></Discover>
       <Apply></Apply>
+      {/* <Leading></Leading> */}
       <Test></Test>
       <Frequently></Frequently>
       <Navigate></Navigate>
-      <Leading></Leading>
       
     </div>
   );
