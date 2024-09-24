@@ -6,10 +6,10 @@ import { TbWorldBolt } from "react-icons/tb";
 
 const Benefits = () => {
     return <div>
-        <div className="mt-[130px] px-8 text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+        <div className="mt-[130px] lg:px-8 text-black">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Children Deserve Bright Future</p>
-                <h1 className="text-5xl  font-bold">Our Benefits</h1>
+                <h1 className="lg:text-5xl text-4xl  font-bold">Our Benefits</h1>
                 <p>With a dedicated team of experienced educators, state-of-the-art facilities, and a comprehensive curriculum, we aim to lay a strong foundation for your child's future.</p>
             </div>
 
