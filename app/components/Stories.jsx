@@ -19,7 +19,7 @@ const Stories = () => {
                     <div className="absolute inset-0 bg-black opacity-40"></div>
 
                     {/* Content with no opacity */}
-                    <div className="relative flex justify-between gap-[100px] items-center">
+                    <div className="relative lg:flex lg:space-y-0 space-y-10 justify-between gap-[100px] items-center">
                             <div className="text-center text-white flex flex-col items-center space-y-3">
                                 <FaGraduationCap className="size-20" />
                                 <h1 className="text-4xl font-semibold font-mono">1000</h1>
