@@ -1,14 +1,14 @@
 const Frequently = () => {
     return <div>
         <div className="mt-[130px] text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Solutions For The Doubts</p>
-                <h1 className="text-5xl  font-bold">Frequently Asked Questions</h1>
+                <h1 className="lg:text-5xl text-3xl  font-bold">Frequently Asked Questions</h1>
                 <p>Find all the essential information you need in our FAQ section, designed to address the most frequently asked questions and help you make informed decisions for your childs education.</p>
             </div>
-            <div className="px-8 flex items-start justify-between space-x-6 mt-[90px]" >
+            <div className="lg:px-8 lg:flex items-start justify-between lg:space-x-6 mt-[90px]" >
                 {/* Left Column */}
-                <div className="w-1/2 space-y-4">
+                <div className="lg:w-1/2 space-y-4">
                     <div className="collapse collapse-plus border-2 border-black rounded-lg bg-[#ffefe5]">
                         <input type="radio" name="my-accordion-3" />
                         <div className="collapse-title text-xl font-medium">What age groups do you accept at Little Learners Academy?</div>
@@ -43,7 +43,7 @@ const Frequently = () => {
                 </div>
 
                 {/* Right Column */}
-                <div className="w-1/2 space-y-4">
+                <div className="lg:w-1/2 space-y-4 lg:mt-0 mt-3">
                     <div className="collapse collapse-plus bg-[#ffefe5] border-2 border-black rounded-lg">
                         <input type="radio" name="my-accordion-3" />
                         <div className="collapse-title text-xl font-medium">Is there a nap time for younger children?</div>
