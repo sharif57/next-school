@@ -4,10 +4,10 @@ import Link from "next/link";
 import { BiArrowToRight } from "react-icons/bi";
 
 const Navigate = () => {
-    return <div className="mt-[130px] px-8 text-black">
-        <div className="w-1/2 mx-auto text-center space-y-4 ">
+    return <div className="mt-[130px] lg:px-8 text-black">
+        <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
             <p className="btn btn-outline text-black font-semibold">Explore More</p>
-            <h1 className="text-5xl  font-bold">Navigate through our Pages</h1>
+            <h1 className="lg:text-5xl text-2xl  font-bold">Navigate through our Pages</h1>
             <p>Your gateway to discovering a wealth of valuable information about our kindergarten school, Feel free to explore and learn more about the enriching experiences that await your child at our kindergarten school</p>
         </div>
 
