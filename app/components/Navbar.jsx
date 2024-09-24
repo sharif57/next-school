@@ -28,7 +28,7 @@ const Navbar = () => {
                         <Link href={'/contact'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Contact</Link>
                     </li>
                     <li className="flex">
-                        <Link href={'/blogs'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Blogs</Link>
+                        <Link href={'/schools'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Blogs</Link>
                     </li>
                     
                 </ul>
