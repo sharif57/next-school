@@ -27,7 +27,8 @@ const Discover = () => {
                     objectFit="cover"
                     className="w-full h-full rounded-badge"
                 />
-            </div>        </div>
+            </div>
+        </div>
     </div>;
 };
 export default Discover;

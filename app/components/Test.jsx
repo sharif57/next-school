@@ -33,21 +33,22 @@ const Test = () => {
     ];
 
     return <div className="mt-[130px] px-8 text-black">
-        <div className="w-1/2 mx-auto text-center space-y-4 ">
+        <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
             <p className="btn btn-outline text-black font-semibold">
                 Their Happy Words 🤗
             </p>
-            <h1 className="text-5xl font-bold">Our Testimonials</h1>
+            <h1 className="lg:text-5xl text-4xl font-bold">Our Testimonials</h1>
             <p>
                 Our testimonials are heartfelt reflections of the nurturing
                 environment we provide, where children flourish both
                 academically and emotionally.
             </p>
         </div>
+        <div>
         <Box
             sx={{
                 display: 'flex',
-                gap: 1,
+                gap: { xs: 0.5, sm: 1 }, // Smaller gap for mobile
                 py: 1,
                 overflow: 'auto',
                 width: '100%',
@@ -64,27 +65,34 @@ const Test = () => {
             }}
         >
             {data.map((item) => (
-                <Card orientation="vertical" key={item.title} variant="outlined" className="w-[700px] mt-14 border-r-8 border-b-8 border-black">
-                    <Box sx={{ whiteSpace: 'wrap', mx: 1 }} className="text-4xl text-center">
+                <Card
+                    orientation="vertical"
+                    key={item.title}
+                    variant="outlined"
+                    className="mt-14 border-r-8 border-b-8 border-black w-full sm:w-[500px] lg:w-[700px]" // Responsive widths
+                >
+                    <Box sx={{ whiteSpace: 'wrap', mx: 1 }} className="text-center">
                         <Image
-                            width={58} // Fixed width
-                            height={58} // Fixed height
+                            width={48} // Adjusted width for mobile
+                            height={48} // Adjusted height for mobile
                             src={item.src}
                             alt="Tania Andrew"
-                            className="inline-block rounded-full object-cover size-20 object-center"
-                            quality={100} // Ensures the image has maximum quality
+                            className="inline-block size-20 rounded-full object-cover object-center"
+                            quality={100}
                         />
 
                         <Typography level="title-md">
-                            <h5 className="text-xl font-semibold text-slate-800 mb-6 mt-4">{item.title}</h5>
+                            <h5 className="text-lg sm:text-xl font-semibold text-slate-800 mb-4 mt-3 sm:mt-4">
+                                {item.title}
+                            </h5>
                         </Typography>
                         <div className="flex justify-center text-yellow-400">
                             <FaStar />
                             <FaStar />
                             <FaStar />
                         </div>
-                        <div className="mt-6">
-                            <p className="text-base w-96 text-slate-600 font-medium leading-normal">
+                        <div className="mt-4 sm:mt-6">
+                            <p className="text-sm sm:text-base   lg:w-96 text-slate-600 font-medium ">
                                 {item.description}
                             </p>
                         </div>
@@ -92,6 +100,7 @@ const Test = () => {
                 </Card>
             ))}
         </Box>
+        </div>
 
 
     </div>;
