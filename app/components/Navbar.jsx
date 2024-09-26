@@ -6,32 +6,32 @@ const Navbar = () => {
     return <div>
         <header className="p-4 dark:bg-gray-100 text-black dark:text-gray-800 bg-slate-200 opacity-90">
             <div className="container flex justify-between h-16 mx-auto">
-               
+
                 <Image height={200} width={400} src={'https://smartyschool.stylemixthemes.com/kindergarten/wp-content/uploads/2016/09/logo-kindergarten.svg'}></Image>
                 <ul className="items-stretch hidden space-x-3 lg:flex">
                     <li className="flex">
-                        <Link href={'/'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</Link>
+                        <Link href={'/'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</Link>
                     </li>
-                    
+
                     <li className="flex">
-                        <Link href={'/academics'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
-                    </li>
-                    <li className="flex">
-                        <Link href={'/Admissions'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Admissions</Link>
+                        <Link href={'/academics'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
                     </li>
                     <li className="flex">
-                        <Link href={'/studentLife'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Student Life</Link>
+                        <Link href={'/Admissions'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Admissions</Link>
                     </li>
                     <li className="flex">
-                        <Link href={'/about'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About Us</Link>
+                        <Link href={'/studentLife'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Student Life</Link>
                     </li>
                     <li className="flex">
-                        <Link href={'/contact'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Contact</Link>
+                        <Link href={'/about'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About Us</Link>
                     </li>
                     <li className="flex">
-                        <Link href={'/schools'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Blogs</Link>
+                        <Link href={'/contact'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Contact</Link>
                     </li>
-                    
+                    <li className="flex">
+                        <Link href={'/schools'} rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Blogs</Link>
+                    </li>
+
                 </ul>
                 <div className="items-center flex-shrink-0 hidden lg:flex">
                     <button className="self-center px-8 py-3 rounded">Sign in</button>
