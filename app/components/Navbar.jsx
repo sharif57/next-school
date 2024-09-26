@@ -12,9 +12,7 @@ const Navbar = () => {
                     <li className="flex">
                         <Link href={'/'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border- dark:text-violet-600 dark:border-violet-600">Home</Link>
                     </li>
-                    <li className="flex">
-                        <Link href={'/about'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About Us</Link>
-                    </li>
+                    
                     <li className="flex">
                         <Link href={'/academics'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Academics</Link>
                     </li>
@@ -23,6 +21,9 @@ const Navbar = () => {
                     </li>
                     <li className="flex">
                         <Link href={'/studentLife'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Student Life</Link>
+                    </li>
+                    <li className="flex">
+                        <Link href={'/about'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">About Us</Link>
                     </li>
                     <li className="flex">
                         <Link href={'/contact'} rel="noopener noreferrer"  className="flex items-center px-4 -mb-1 border-b-2 dark:border-">Contact</Link>
