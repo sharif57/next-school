@@ -2,7 +2,7 @@
 const AcademicsBanner = () => {
     return <div className="text-black mt-10">
         <div
-            className=" bg-no-repeat lg:h-44  lg:py-60    bg-white border-2 border-black rounded-lg  shadow-2xl border-b-8 border-r-8 "
+            className=" bg-no-repeat lg:h-44  lg:py-60     bg-white border-2 border-black rounded-lg  shadow-2xl border-b-8 border-r-8 "
             style={{ backgroundImage: `url('https://i.ibb.co/NjJWg6j/Abstract-Design.png')` }}
         >
             <div className="lg:flex lg:mt-0  mt-52 lg:p-0 p-4 items-center justify-between lg:gap-20 lg:pl-36 ">

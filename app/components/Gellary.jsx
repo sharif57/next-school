@@ -24,8 +24,8 @@ const Gellary = () => {
         },
     ];
     return <div>
-        <div className="mt-[130px] px-8 text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+        <div className="mt-[130px] lg:px-8 text-black">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black hover:bg-[#ffefd5] font-semibold">
                 Our Gallery                </p>
                 <h1 className="text-5xl font-bold">Our Rooms Gallery</h1>
@@ -33,7 +33,7 @@ const Gellary = () => {
                 Step into our Gallery and immerse yourself in a visual journey of cherished moments and unforgettable experiences at our kindergarten school.
                 </p>
             </div>
-            <div className="flex items-center gap-6 justify-center mt-14">
+            <div className="lg:flex  items-center gap-6 justify-center mt-14">
                 <button className="btn btn-outline text-black hover:bg-[#ffefd5]">All</button>
                 <button className="btn btn-outline text-black hover:bg-[#ffefd5]">Classrooms</button>
                 <button className="btn btn-outline text-black hover:bg-[#ffefd5]">Library</button>
@@ -43,7 +43,7 @@ const Gellary = () => {
                
             </div>
             <div>
-                <div className="relative -mb-28 w-5/6 mx-auto">
+                <div className="relative lg:-mb-28 -mb-32 lg:w-5/6 mx-auto">
                     <Box
                         sx={{
                             display: 'flex',
@@ -71,7 +71,7 @@ const Gellary = () => {
                                         height={200} // Fixed height
                                         src={item.src}
                                         alt="Tania Andrew"
-                                        className="inline-block rounded-lg object-cover w-full object-center"
+                                        className="inline-block rounded-lg object-cover w-full object-center lg:px-0 px-6"
                                         quality={100} // Ensures the image has maximum quality
                                     />
 
@@ -93,7 +93,7 @@ const Gellary = () => {
                 <div className="bg-[#ffffff] py-28 border-2 border-r-8 border-b-8    border-black rounded-lg ">
 
                     <div className="w-5/6 mx-auto">
-                        <h1 className="text-4xl font-semibold">Classrooms</h1>
+                        <h1 className="lg:text-4xl text-2xl font-semibold">Classrooms</h1>
                         <p className="mt-4">Our well-equipped classrooms are designed to provide a nurturing and stimulating learning environment. Each classroom is thoughtfully arranged to inspire creativity, curiosity, and engagement.</p>
                     </div>
                 </div>

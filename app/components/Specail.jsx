@@ -4,10 +4,10 @@ import { GiNetworkBars } from "react-icons/gi";
 
 const Specail = () => {
     return <div>
-        <div className="mt-[130px] px-8 text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+        <div className="mt-[130px] lg:px-8 text-black">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Our Features</p>
-                <h1 className="text-5xl  font-bold">Our Special Features</h1>
+                <h1 className="lg:text-5xl text-3xl  font-bold">Our Special Features</h1>
                 <p>Our kinder garden school provides a nurturing and stimulating environment, fostering a love for learning that lasts a lifetime. Join us as we embark on an exciting educational journey together!</p>
             </div>
             <div>

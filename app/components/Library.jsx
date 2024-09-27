@@ -20,9 +20,9 @@ const Library = () => {
             src: '/Image (8).png',
         },
     ];
-    return <div className='px-8'>
+    return <div className='lg:px-8 '>
         <div>
-            <div className="relative -mb-28 w-5/6 mx-auto">
+            <div className="relative lg:-mb-28 -mb-32 lg:w-5/6 mx-auto ">
                 <Box
                     sx={{
                         display: 'flex',
@@ -50,7 +50,7 @@ const Library = () => {
                                     height={200} 
                                     src={item.src}
                                     alt="Tania Andrew"
-                                    className="inline-block rounded-lg object-cover w-full object-center"
+                                    className="inline-block rounded-lg object-cover w-full object-center lg:px-0 px-6 "
                                     quality={100} // Ensures the image has maximum quality
                                 />
 
@@ -71,8 +71,8 @@ const Library = () => {
 
             <div className="bg-[#ffffff] py-28 border-2 border-r-8 border-b-8  border-black rounded-lg ">
 
-                <div className="w-5/6 mx-auto text-black">
-                    <h1 className="text-4xl font-semibold">Library</h1>
+                <div className="w-5/6 lg:px-0 px-2 mx-auto text-black">
+                    <h1 className="lg:text-4xl text-2xl font-semibold">Library</h1>
                     <p className="mt-4">Our expansive library is a treasure trove of books, fostering a love for reading and supporting students' literacy development.</p>
                 </div>
             </div>

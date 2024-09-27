@@ -21,9 +21,9 @@ const Garden = () => {
         },
     ];
 
-    return <div className='px-8'>
+    return <div className='lg:px-8'>
         <div>
-            <div className="relative -mb-28 w-5/6 mx-auto">
+            <div className="relative lg:-mb-28 -mb-32 lg:w-5/6 mx-auto">
                 <Box
                     sx={{
                         display: 'flex',
@@ -73,7 +73,7 @@ const Garden = () => {
             <div className="bg-[#ffffff] py-28 border-2 border-r-8 border-b-8  border-black rounded-lg ">
 
                 <div className="w-5/6 mx-auto text-black">
-                    <h1 className="text-4xl font-semibold">Garden and Nature Area</h1>
+                    <h1 className="lg:text-4xl text-2xl font-semibold">Garden and Nature Area</h1>
                     <p className="mt-4">Our garden and nature area offer an opportunity for children to connect with nature and learn about plants and the environment.</p>
                 </div>
             </div>
