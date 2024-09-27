@@ -1,13 +1,13 @@
 const Tables = () => {
   return <div className="mt-[130px] ">
-    <div className="w-1/2 mx-auto text-center space-y-4 ">
+    <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
       <p className="btn btn-outline text-black font-semibold">Our Features</p>
-      <h1 className="text-5xl  font-bold">Fee Structure</h1>
+      <h1 className="lg:text-5xl text-3xl  font-bold">Fee Structure</h1>
       <p>Our fee structure is transparent, and we strive to keep our fees competitive within the education sector. The fees vary based on the program, age group, and any additional services chosen.</p>
     </div>
-    <div className="container mx-auto p-8 mt-10">
-      <div className="border-2 border-r-8 border-l-8 border-black rounded-lg p-8">
-        <table className="min-w-full table-auto border-collapse border border-gray-300 text-center">
+    <div className="lg:container mx-auto p-8 mt-10 overflow-x-auto">
+      <div className="border-2 border-r-8 border-l-8 border-black rounded-lg lg:p-8">
+        <table className="min-w-full  table-auto border-collapse border border-gray-300 text-center">
           <thead className="">
             <tr className="bg-gray-800 text-white">
               <th className="border border-gray-300 px-4 py-2">Program</th>
@@ -46,10 +46,10 @@ const Tables = () => {
     </div>
 
     {/* second tables */}
-    <div className="container mx-auto p-8 mt-8">
+    <div className="container mx-auto lg:p-8 mt-8">
       <div className="border-2 border-r-8 border-l-8 border-black rounded-lg p-8">
         <div className="bg-gray-800 rounded-lg w-full text-white p-4 mb-3">
-          <h1 className="text-xl font-semibold">Additional Services</h1>
+          <h1 className="lg:text-xl font-semibold">Additional Services</h1>
         </div>
         <table className="min-w-full table-auto border-collapse border border-gray-300 text-center">
 

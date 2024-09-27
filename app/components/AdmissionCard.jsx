@@ -36,7 +36,7 @@ const AdmissionCard = () => {
     return <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 mt-16">
         {
             cards.map(card => <div className="" key={card.number}>
-                <div className="p-4 border-2 border-r-8 border-b-8 border-black rounded-lg w-1/5">
+                <div className="p-4 border-2 border-r-8 border-b-8 border-black rounded-lg lg:w-1/5 w-1/3">
                     <h1 className="text-4xl font-bold">{card.number}</h1>
                 </div>
                 <img className="-mt-4 h-14" src="/Container.png" alt="" />

@@ -21,7 +21,7 @@ const Garden = () => {
         },
     ];
 
-    return <div className='lg:px-8'>
+    return <div className='lg:`px-8'>
         <div>
             <div className="relative lg:-mb-28 -mb-32 lg:w-5/6 mx-auto">
                 <Box
