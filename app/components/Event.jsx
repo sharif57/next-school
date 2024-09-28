@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Event = () => {
     return <div>
-        <div className="mt-[130px] px-8 text-black">
+        <div className="mt-[130px] lg:px-8 text-black">
             <div className="w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Our Features</p>
                 <h1 className="text-5xl  font-bold">Events & Celebrations</h1>
