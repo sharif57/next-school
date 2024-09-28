@@ -1,11 +1,12 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 const Event = () => {
     return <div>
         <div className="mt-[130px] lg:px-8 text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Our Features</p>
-                <h1 className="text-5xl  font-bold">Events & Celebrations</h1>
+                <h1 className="lg:text-5xl text-2xl font-bold">Events & Celebrations</h1>
                 <p>At Little Learners Academy, we celebrate every milestone and create cherished memories for our students. Throughout the year, we host a variety of events and celebrations that bring the entire school community together. Some of our memorable events include</p>
             </div>
 
@@ -25,7 +26,7 @@ const Event = () => {
                     </div>
                     <h1 className="text-2xl font-semibold mb-3 pt-5 mt-5">Annual Sports Day</h1>
                     <p className="w-64
- mx-auto">A day filled with friendly competition, team spirit, and sportsmanship. </p>
+ mx-auto">A day filled with friendly competition, team spirit, and sportsmanship.</p>
                 </div>
                 <div className="border-2 border-black rounded-lg py-8 bg-white px-4 text-center  shadow-2xl border-b-8 border-r-8 bg-no-repeat bg-[center_top] "
                     style={{ backgroundImage: `url('/Shape (2).png')` }}
