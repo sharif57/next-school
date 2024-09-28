@@ -1,6 +1,6 @@
 const Footer = () => {
     return <div>
-        <footer className="p-6 dark:bg-gray-100 dark:text-gray-800 text-black bg-indigo-100">
+        <footer className="p-6 dark:bg-gray-100 dark:text-gray-800 text-black bg-[#ffffff]">
             <div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4">
                 <div className="flex flex-col space-y-4">
                     <h2 className="font-medium">Getting started</h2>
