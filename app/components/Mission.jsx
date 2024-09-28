@@ -3,10 +3,10 @@ import Image from "next/image";
 const Mission = () => {
   return (
     <div>
-      <div className="px-32 mt-[130px]">
-        <div className="w-1/2 mx-auto text-center space-y-4 text-black">
+      <div className="lg:px-32 mt-[130px]">
+        <div className="lg:w-1/2 mx-auto text-center space-y-4 text-black">
           <p className="btn btn-outline text-black font-semibold">Mission & Visions</p>
-          <h1 className="text-5xl font-bold">Our Mission & Visions</h1>
+          <h1 className="lg:text-5xl text-3xl font-bold">Our Mission & Visions</h1>
           <p>
             We are here to provide a nurturing and inclusive environment where
             young minds can thrive, fostering a love for learning and personal

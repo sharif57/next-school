@@ -6,10 +6,10 @@ import { ImPower } from "react-icons/im";
 
 const Awards = () => {
     return <div>
-        <div className="mt-[130px] px-8 text-black">
-            <div className="w-1/2 mx-auto text-center space-y-4 ">
+        <div className="mt-[130px] lg:px-8 text-black">
+            <div className="lg:w-1/2 mx-auto text-center space-y-4 ">
                 <p className="btn btn-outline text-black font-semibold">Our Achievements</p>
-                <h1 className="text-5xl  font-bold">Our Awards and Recognitions</h1>
+                <h1 className="lg:text-5xl text-3xl  font-bold">Our Awards and Recognitions</h1>
                 <p>Little Learners Academy takes pride in our commitment to delivering high-quality education and outstanding student experiences. We are honored to have received various awards and recognitions for our dedication to early childhood education. These accolades reflect our team's relentless efforts in creating an exceptional learning environment for our students.</p>
             </div>
 
