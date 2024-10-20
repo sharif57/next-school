@@ -1,6 +1,7 @@
 import AdmissionCard from "../components/AdmissionCard";
 import Tables from "../components/Tables";
 
+
 /* eslint-disable react/no-unescaped-entities */
 const Page = () => {
     return <div className="text-black">
